@@ -168,6 +168,12 @@ body{
 .boton:hover {
   cursor: pointer;
 }
+.header_menu_left:hover{
+  cursor: pointer;
+}
+.header_menu_right:hover{
+  cursor: pointer;
+}
 .contact_text{
   font-weight: lighter;
   font-size: 25px;
