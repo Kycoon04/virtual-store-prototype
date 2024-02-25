@@ -1,0 +1,218 @@
+  body{
+    background-color: #2B2B2B;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    
+  }
+  .header_contact {
+    width:max-content;
+    display: flex;
+    align-items: center;
+    background-color: #E1500C;
+    border-radius: 7px;
+    margin-top: 0.5%;
+  }
+  .text_header_contact {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin: 5px;
+    font-style: normal;
+  }
+  .icon_header_contact{
+    color: #ffffff;
+    margin: 3px;
+    padding-left: 3px ;
+    font-size: 20px;
+  }
+  .header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: full;
+    padding: 15px;
+    background-color: #E1500C;
+    border-radius: 7px;
+    margin-top: 0.5%;
+  }
+  .icon_menu{
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+  .text_menu {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 7px;
+    font-style: normal;
+  }
+  .header_banner{
+    margin-top: 15px;
+    display: flex;
+  }
+  .box_banner{
+    background-image: url("/img/YuGiOhBackground.jpg");
+    background-size: 100%;
+    background-position: 50%;
+    width:100%;
+    height: 150px;
+    border-radius: 7px;
+    margin-left: 10px;
+    opacity: 50%;
+  }
+  .shade{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #272727;
+    width: full;
+    height: max-content;
+  }
+  .information{
+    padding-bottom: 40px;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+  }
+  .additional {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .additional p{
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    width: 528px;
+  }
+  .additional h1{
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  .products {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .options{
+    background-color: #E1500C;
+    width: 220px;
+    border-top-color: transparent;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+  }  
+  .options img {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .group{
+    padding: 3px;
+    text-align: center;
+  }
+  .information p{
+    text-align:left;
+  }
+  .other_information{
+    padding-bottom: 0px;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+  }
+  .other_information h3{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2.5rem; 
+    margin-top: 50px;
+  }
+  .games{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+  .game img{
+    width: 200px; 
+    height: 220px; 
+  }
+  .game p{
+    margin-left: 90px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    width: 395px;
+    margin-top: 0px;
+  }
+  .boton{
+    background-color: #E1500C;
+    color: #ffffff;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    height: 50px;
+    text-align: center;
+  }
+  .boton:hover {
+    cursor: pointer;
+  }
+  .contact{
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  button {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 18px; 
+    background-color: #e1500c;
+    width: 160%; 
+    max-width: 200px; 
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+  }
+  .rectangle {
+    margin-top: 50px;
+    background-color: #e1500c;
+    height: 15px;
+  }
+  .rectangleContact {
+    color: white;
+    background-color: #272727;
+    height: auto; 
+    padding: 20px;
+    text-align: center; 
+  }
+  .form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap:200px;
+    justify-content: center;
+  }
+  .buttonSend {
+    background-color: #e1500c;
+    width: 100%;
+    height: 50px;
+  }
+  .input{
+    background-color: #3a3939;
+    border: 3px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+  }
